@@ -38,7 +38,7 @@ export default function SearchBar({ state, setState, walletState, categoryState,
                         rangeColors={['#4A3AFF']}
                         editableDateInputs={true}
                         onChange={item => {
-                            setState([item.selection]),console.log(item) ,setFiltardata(data => ({
+                            setState([item.selection]),setFiltardata(data => ({
                                 ...data, "date": {
                                     "$gte": IsoDateConverter(item.selection.startDate),
                                     "$lte": IsoDateConverter(item.selection.endDate)

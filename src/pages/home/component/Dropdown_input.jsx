@@ -2,7 +2,7 @@
 
 export default function Dropdown_input(props) {
   const list = props.options?.map((val) => {
-    console.log(props.state[0]==(val._id||val))
+
     return <option className="drop-down-options pop-input" key={val._id || val} value={val._id || val} selected={props.state[0]==(val._id||val)}>{val.name || val}</option>;
   });
 

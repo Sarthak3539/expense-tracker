@@ -39,7 +39,7 @@ export default function Transaction() {
   const mutates = () => {
     Filterdata.mode = categoryState[0] != 'expense';
     Filterdata.wallet_id = walletState[0]
-    console.log(Filterdata)
+   
     mutate(Filterdata)
   }
 
