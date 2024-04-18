@@ -65,7 +65,7 @@ export default function Add_wallet(props) {
                     </div>
                     <div className='flex mg'>
                         <RiMoneyDollarCircleLine size={30} />
-                        <input type='text' placeholder='balance' className="pop-input" name='balance' value={getWallet.balance} onChange={(e) => handleChange(e)} />
+                        <input type='number'  placeholder='balance' className="pop-input" name='balance' value={getWallet.balance} onChange={(e) => handleChange(e)} />
                     </div>
 
                     <button type='submit' className='add_transaction'>ADD</button>

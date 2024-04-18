@@ -112,7 +112,7 @@ export default function AddTransaction(props) {
                 </div>
                 <div className='flex mg'>
                     <RiMoneyDollarCircleLine size={30} />
-                    <input type='text' placeholder='amount' className="pop-input" name='expense' value={transactionData[0].expense} onChange={handleChange} />
+                    <input type='number' placeholder='amount' className="pop-input" name='expense' value={transactionData[0].expense} onChange={handleChange} />
                 </div>
                 <div className='flex mg'>
                     <CiCalendarDate size={30} />
