@@ -23,7 +23,7 @@ export default function Sidebar() {
         <div className='sidebar font '>
             <div className='upper'>
                 <img className="proflie" src="/images/profile.png" width={"70px"} height={"70px"}></img>
-                <div className='text font-style-heading'>{getemail.name}</div>
+                <div className='text font-style-heading'> {getemail.name}</div>
             </div>
 
             <div className='item font-style'>

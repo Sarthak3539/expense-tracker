@@ -7,6 +7,7 @@ import { QueryClient,QueryClientProvider } from "react-query"
 import {ReactQueryDevtools} from 'react-query/devtools'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import MasterLayout from './Layout/MasterLayout'
+import Anaysis from './pages/anaysis/Anaysis'
 
 
 
@@ -24,6 +25,10 @@ export default function App() {
         {
           path:'transaction',
           element:<Transaction/>
+        },
+        {
+          path:'anaysis',
+          element:<Anaysis/>
         }
       ]
     },{
